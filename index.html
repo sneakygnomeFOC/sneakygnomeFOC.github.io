@@ -14,45 +14,33 @@
     }
     </script>
 	<style>
-.container {
+container {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
 }
 
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-  color: black;
-  font-size: 16px;
-  padding: 16px 30px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
+.centeredtext {
+margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-.container .btn:hover {
-  background-color: black;
-  color: white;
-}
 </style>
 
 </head>
 
 <body>
 
-    <script type="text/javascript">
-    printquote();
-    </script>
-
-<div class="container">
-   <button onclick="printquote()" class="btn">Button</button>
+<div id="container">
+   
+<p class="centeredtext">   <script type="text/javascript">  printquote(); </script> </p>
 </div>
+
 
 </body>
 
