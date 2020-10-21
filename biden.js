@@ -8,5 +8,5 @@ var quotes = [
 
 document.getElementById("changeQuote").addEventListener("click", function() {
     var q = quotes[ Math.floor( Math.random() * quotes.length ) ];
-    document.getElementById("test").innerHTML = q;     
+    document.getElementById("quoteDisplay").innerHTML = q;     
 });
