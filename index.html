@@ -33,12 +33,23 @@ margin: 0;
 
 .toptext {
 margin: 0;
-    background: green;
+    color: purple;
     position: absolute;
     top: 25%;
     left: 25%;
 	font-size:42px;
+	font-family: Helvetica;
 }
+
+.reload-button {
+  color: purple;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	font-size:42px;
+	font-family: Helvetica;
 
 </style>
 
@@ -51,7 +62,7 @@ margin: 0;
 <p class="centeredtext">   <script type="text/javascript">  printquote(); </script> </p>
 </div>
 
-<button onclick="location.reload()">More</button>
+<button class="reload-button" onclick="location.reload()">More</button>
 
 
 </body>
